@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OfficeApp 
+<OfficeApp
           xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
@@ -20,8 +20,8 @@
   <Description DefaultValue="Insert your signature with ease."/>
 
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
-  <IconUrl DefaultValue="https://localhost:3000/assets/banijay-b.png" />
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/banijay-b.png"/>
+  <IconUrl DefaultValue="https://github.com/aarontully/email-signature/blob/main/assets/banijay-b.png" />
+  <HighResolutionIconUrl DefaultValue="https://github.com/aarontully/email-signature/blob/main/assets/banijay-b.png"/>
 
   <!--If you plan to submit this add-in to the Office Store, uncomment the SupportUrl element below-->
   <SupportUrl DefaultValue="[Insert the URL of a page that provides support information for the app]" />
@@ -43,7 +43,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:3000/index.html"/>
+        <SourceLocation DefaultValue="https://github.com/aarontully/email-signature/blob/main/src/index.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -131,12 +131,12 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="assets/banijay-b.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://github.com/aarontully/email-signature/blob/main/assets/banijay-b.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="residUrl0" DefaultValue="/src/taskpane/editsignature.html"></bt:Url>
-        <bt:Url id="Autorun" DefaultValue="/src/runtime/autorunweb.html"></bt:Url>
-        <bt:Url id="runtimeTs" DefaultValue="/src/runtime/autorunshared.ts"></bt:Url>
+        <bt:Url id="residUrl0" DefaultValue="https://github.com/aarontully/email-signature/blob/main/src/taskplane/editSignature.html"></bt:Url>
+        <bt:Url id="Autorun" DefaultValue="https://github.com/aarontully/email-signature/blob/main/src/runtime/autorunweb.html"></bt:Url>
+        <bt:Url id="runtimeTs" DefaultValue="https://github.com/aarontully/email-signature/blob/main/src/runtime/autorunshared.ts"></bt:Url>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="residGL0" DefaultValue="Signature Injector"></bt:String>
